@@ -2,18 +2,21 @@
     background-color: blueviolet; 
     height: 50px;
     display: flex;
-    
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px rgb(0, 0, 8);
+
+
 }
 
 #logoDiv{
     background-color: aliceblue;
-    height: 40px;
-    width: 70px;
+    height: 50px;
+    width: 60px;
 }
 
 #logoDiv img{
-    height: 40px;
-    display: flex;
+    height: 50px;
 }
 
 .navItems{
