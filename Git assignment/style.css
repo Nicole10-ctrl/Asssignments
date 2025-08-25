@@ -1,0 +1,34 @@
+.navBar{
+    background-color: blueviolet; 
+    height: 50px;
+    display: flex;
+    
+}
+
+#logoDiv{
+    background-color: aliceblue;
+    height: 40px;
+    width: 70px;
+}
+
+#logoDiv img{
+    height: 40px;
+    display: flex;
+}
+
+.navItems{
+    background-color: rgb(97, 97, 160);
+    
+}
+
+.navMenu{
+    text-decoration: none;
+    font-size: 13px;
+    color:black ;
+    list-style:none;
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
+
+}
