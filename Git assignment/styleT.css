@@ -1,0 +1,13 @@
+.first-table-style{
+    border: 1px ridge black;
+}
+
+#second-new-table{
+    border: 2px solid black;
+}
+
+#second-new-table th,
+#second-new-table td{
+    border: 1px solid black;
+}
+
