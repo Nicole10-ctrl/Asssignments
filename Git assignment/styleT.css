@@ -4,10 +4,21 @@
 
 #second-new-table{
     border: 2px solid black;
+    border-collapse: collapse;
 }
 
 #second-new-table th,
 #second-new-table td{
     border: 1px solid black;
 }
+
+.the-third-table{
+    border: 1px dotted black;
+    border-collapse: collapse;
+}
+.the-third-table th,
+.the-third-table td{
+    border: 1px solid palevioletred
+} 
+ 
 
