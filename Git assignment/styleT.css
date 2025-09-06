@@ -13,12 +13,20 @@
 }
 
 .the-third-table{
+    width: 100px;
     border: 1px dotted black;
     border-collapse: collapse;
 }
 .the-third-table th,
 .the-third-table td{
     border: 1px solid palevioletred
-} 
- 
+}
+
+#fifth-new-table{
+    border: 2px solid black;
+    width: 400px;
+}
+
+
+
 
