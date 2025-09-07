@@ -27,6 +27,16 @@
     width: 400px;
 }
 
+.forth-table-new{
+    border: 2px solid black;
+    border-collapse:collapse;
+    width: 150px;
+}
+.forth-table-new th,
+.forth-table-new td{
+    border: 1px solid black;
+}
+
 
 
 
