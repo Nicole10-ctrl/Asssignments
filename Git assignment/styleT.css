@@ -3,14 +3,20 @@
 }
 
 #second-new-table{
-    border: 2px solid black;
+    border: 2px solid rgb(232, 91, 115);
     border-collapse: collapse;
+    width: 300px;
+    
 }
-
-#second-new-table th,
 #second-new-table td{
     border: 1px solid black;
+    border-radius: 10px;
 }
+#second-new-table th{
+    background-color: pink;
+}
+
+
 
 .the-third-table{
     width: 300px;
@@ -29,13 +35,31 @@
 
 .forth-table-new{
     border: 2px solid black;
-    border-collapse:collapse;
-    width: 150px;
+    border-collapse:collapse;;
 }
 .forth-table-new th,
 .forth-table-new td{
     border: 1px solid black;
+    width: 150px
 }
+
+.seventh-table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.seventh-table th{
+    background-color: violet
+    
+}
+.seventh-table td{
+    border: 1px solid black;
+    background-color: rgb(255, 185, 255)
+}
+.seventh-table th,
+.seventh-table td{
+    width: 150px;
+}
+
 
 
 
