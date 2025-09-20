@@ -7,16 +7,61 @@
 </head>
 <body>
     <form>
-        <label>Full Name:</label> <br>
-            <input type="text" id="Fullname" name="Fullname" > 
+        <label for="Fullname"> Fullname</label> 
+        <input type="text" id="Fullname" name="Fullname" > 
 <br><br>
-        <label>Email Address:</label> <br>
-            <input type="text" id="Email Address" name="Email Address">
+        <label for="Email"> Email Address:</label>
+        <input type="email" id="Email Address" name="Email Address">
 <br><br>
-        <label>Message:</label> <br>
-            <textarea name="message" rows="5" cols="60"></textarea>
+        <label for="message"> Message:</label> <br>
+        <textarea name="message" rows="5" cols="60"></textarea>
 <br><br>
-    <input type="submit" value="Submit Form">
+    <input type="submit" value="Submit">
+    </form>
+
+    <h3>REGISTRATION FORM</h3>
+    <form>
+        <label for="firstname"> First Name:</label>
+        <input type="text" id="First name" name="First name"> 
+
+        <label for="lastname"> Last name:</label>
+        <input type="text" id="Last name" name="Last name">
+<br>
+        <label for="male"> Male:</label>
+        <input type="radio" value="male" id="male" name="gender">
+
+        <label>Female:</label>
+        <input type="radio" value="female" id="female" name="gender"><br>
+
+        <h4>Select three hobbies of choice</h4>
+        <label for="Photography"> Photography:</label>
+        <input type="checkbox" value="Photography" id="Photography"><br>
+
+        <label for="Shopping"> Shopping:</label>
+        <input type="checkbox" value="Shopping" id="Shopping"><br>
+
+        <label for="Cooking"> Cooking:</label>
+        <input type="checkbox" value="Cooking" id="Cooking" ><br>
+
+        <label for="Sewing"> Sewing:</label>
+        <input type="checkbox" value="Sewing" id="Sewing"><br>
+
+        <label for="learning"> learning:</label>
+        <input type="checkbox" value="learning" id="learning">
+
+        <h4> Select Course of Study </h4>
+        <label for="Web Development"> Web Development:</label>
+        <input type="radio" value="web Development" id="Web Development" name="Course"><br>
+
+        <label for="Data Science"> Data Science:</label>
+        <input type="radio" value="data science" id="Data Science" name="Course"><br>
+
+        <label for="AI"> AI:</label>
+        <input type="radio" value="AI" id="AI" name="Course">
+
+        <input type="submit" value="submit">
+
+
     </form>
 </body>
 </html>
