@@ -3,138 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORM ASSIGNMENT</title>
+    <title>FORM</title>
+    <link rel="stylesheet" href="styleF.css">
 </head>
 <body>
-    <form>
-        <label for="Full name"> Full Name:</label> 
-        <input type="text" id="Full name" name="Full name" > 
+    <section>
+    <div class="container">
+        <img src="Girl.jpg" alt="Girl">
+        <form>
+            <fieldset>
+        <h1 style="color: rgb(167, 69, 232);">
+            Personal Information
+        </h1>
+        <div>
+            <label for="Full name"> Full Name:</label> 
+            <input type="text" id="Full name" name="Full name"> 
+        </div>
 <br><br>
-        <label for="Email"> Email Address:</label>
-        <input type="email" id="Email Address" name="Email Address">
+        <div class="Email">
+            <label for="Email"> Email Address:</label>
+            <input type="email" id="Email Address" name="Email Address">
+        </div>
 <br><br>
-        <label for="message"> Message:</label> <br>
-        <textarea name="message" rows="5" cols="60"></textarea>
+        <div class=" Message">
+            <label for="message"> Message:</label> <br>
+            <textarea name="message" rows="5" cols="60"></textarea>
+        </div>
 <br><br>
     <input type="submit" value="Submit">
-    </form>
-
-    <h3>REGISTRATION FORM</h3>
-    <form>
-        <label for="firstname"> First Name:</label>
-        <input type="text" id="First name" name="First name" required> 
-
-        <label for="lastname"> Last name:</label>
-        <input type="text" id="Last name" name="Last name" required><br>
-
-        <label for="male"> Male:</label>
-        <input type="radio" value="male" id="male" name="gender">
-
-        <label>Female:</label>
-        <input type="radio" value="female" id="female" name="gender">
-        
-        <label for="Other"> Other:</label>
-        <input type="radio" value="Other" id="Other" name="gender"><br>
-
-        <h4>Select three hobbies of choice</h4>
-        <label for="Photography"> Photography:</label>
-        <input type="checkbox" value="Photography" id="Photography"><br>
-
-        <label for="Shopping"> Shopping:</label>
-        <input type="checkbox" value="Shopping" id="Shopping"><br>
-
-        <label for="Cooking"> Cooking:</label>
-        <input type="checkbox" value="Cooking" id="Cooking" ><br>
-
-        <label for="Sewing"> Sewing:</label>
-        <input type="checkbox" value="Sewing" id="Sewing"><br>
-
-        <label for="learning"> learning:</label>
-        <input type="checkbox" value="learning" id="learning">
-
-        <h4> Course of study selection </h4>
-
-        <label for="course_of_study"> Select your course of study:</label>
-        <select name="course_of_study" id="course_of_study" required>
-            <option value="Web Development"> Web Development </option>
-            <option value="cyber Security"> Cyber Security </option>
-            <option value="Google veo">Google veo</option>
-            <option value="AI">AI</option>
-        </select><br><br>
-        <input type="submit" value="submit"><br><br>
-
-        <h3>JOB APPLICATION FORM</h3>
-        <label for="Fullname"> Full Name:</label> 
-        <input type="text" id="Fullname" name="Fullname" required><br><br>
-
-        <label for="Email Address"> Email Address: </label> 
-        <input type="email" id="Email Address" name="Email" required><br><br>
-        
-        <label for="yearsOfExperience">Years of Experience:</label>
-        <input type="number" id="yearsOfExperience" name="yearsOfExperience" min="1" max="40" required><br><br>
-
-        <label for="resume">Select PDF Resume:</label>
-        <input type="file" id="resume" name="resume_file" accept=".pdf" > <br><br>
-
-        <input type="submit" value="Upload Resume">
-
-        <h3>TRAVEL BOOKING FORM</h3>
-        <label for="Destination City">Choose your Destination city from the list:</label>
-        <input list="Destination city" name="Destination city" id="Destination city">
-        <datalist id="Destination City">
-            <option value="Singapore">
-            <option value="Dubai">
-            <option value="Jamaica">
-            <option value="Berlin">
-            <option value="Japan">
-        </datalist>
-
-
-        <h3>FEEDBACK FORM</h3>
-        <label for="Full name"> Full Name:</label>
-        <input type="text" id="Full Name" name="Full name" required><br><br>
-
-        <label for="Email Address"> Email Address:</label>
-        <input type="email" id="Email Address" name="email" required>
-
-        <label for="Age">Age:</label>
-        <input type="number" id="Age" name="Age" min="13" max="100" required>
-
-        <h4>Rate our work</h4>
-        <label for="Excellent"> Excellent:</label>
-        <input type="radio" value="Excellent" id="Excellent" name="Rate">
-
-        <label for="Good"> Good</label>
-        <input type="radio" value="Good" id="Good" name="Rate">
-
-        <label for="Average"> Average</label>
-        <input type="radio" value="Average" id="Average" name="Rate">
-
-        <label for="Poor"> Poor</label>
-        <input type="radio" value="Poor" id="Poor" name="Rate"><br><br>
-
-        <label for="preferred_Contact_Method">Preferred Contact:</label>
-        <select name="preferred_Contact_Method" id="Contact_Method">
-            <option value="Email"> Email </option>
-            <option value="Phone"> Phone </option>
-            <option value="Whatsapp">Whatsapp</option>
-        </select><br><br>
-
-        <label for="Additional Comments"> Additional Comments:</label> <br>
-        <textarea name="Additional Comments" rows="4" cols="50"></textarea><br><br>
-
-        <label for="Terms and Conditions"> I agree to the Terms and Conditions:</label>
-        <input type="checkbox" value="Terms and Conditions" id="Terms" required><br><br>
-
-        <input type="Reset" value="Reset">
-        <input type="submit" value="Submit">
-
-        
-
-
-
-
-
-    </form>
+            </fieldset>
+        </form>
+    </div>
+    </section>
 </body>
-</html>
+    
