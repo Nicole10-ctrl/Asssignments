@@ -1,4 +1,4 @@
-form {
+#form1 {
     display: flex;
     flex-direction: row;
     max-width: 100%; 
@@ -13,18 +13,18 @@ form {
     font-family: Arial, sans-serif;
     }
 
-label {
+#form1 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
     color: rgb(232, 160, 246);
     }
 
-input[type="text"], input[type="email"] {
+#form1 input[type="text"], input[type="email"] {
     width: 400px;
 }
 
-input[type="submit"] {
+#form1 input[type="submit"] {
     background-color:rgb(169, 143, 249);
     color: white;
     padding: 10px 15px;
@@ -33,7 +33,7 @@ input[type="submit"] {
     cursor: pointer;
     }
 
-fieldset{
+#form1 fieldset{
     width: 50px; 
     margin:auto;
     background-color: rgb(238, 248, 248);
@@ -51,6 +51,50 @@ fieldset{
         max-width: 500px;
         height: 500px;
     }
+
+    #form2{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(rgb(182, 101, 101),rgb(253, 236, 236));
+    margin-right: 15px; 
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #84353d;
+    }
+
+    #form2 label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fe6877;
+    }
+
+    legend{
+        color: #581118;
+        font-size: larger;
+        font-style: italic;
+        padding-bottom: 10px;
+    }
+
+    #form2 fieldset{
+    width: 50px; 
+    margin:auto;
+    background-color: rgb(255, 211, 211);
+    }
+
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
 
 
 
