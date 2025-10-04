@@ -11,8 +11,8 @@
         <div class="form-group">
             <form id="form3">
                 <fieldset>
-                    <h3 style="">
-                        JOB APPLICATION 
+                    <h3 style="font-size: larger;text-align: center ;">
+                        JOB APPLICATION FORM
                     </h3>
         <div>
             <label for="Fullname"> Full Name:</label> 
@@ -40,7 +40,49 @@
         </div>
     </section>
 </body>
+<br><br>
 
 
-        <br><br>
+<body>
+    <section>
+        <div class="travel-form">
+            <form id="form4">
+                <fieldset>
+        <label for="Destination City">Choose your Destination city from the list:</label>
+        <input list="Destinationcity" name="Destinationcity"id="Destination" required>
+            <datalist id="Destinationcity">
+                <option value="SINGAPORE">
+                <option value="DUBAI">
+                <option value="JAMAICA">
+                <option value="BELIN">
+                <option value="JAPAN">
+        </datalist><br><br>
 
+        <div>
+            <label for="Departure-date">Departure-date:</label>
+            <input type="date" id="Departure-date" name="Departure-date" required>
+        </div><br>
+
+        <div>
+            <label for="Return-date">Return-date Date:</label>
+            <input type="date" id="Return-date" name="Return-date">
+        </div><br>
+
+        <div>
+            <label for="passengers">Number of Passengers:</label>
+            <input type="number" id="passengers" name="passengers" min="1" max="10" required>
+        </div><br>
+
+        <div>
+            <label for="travel-class">Travel Class:</label>
+            <select id="travel-class" name="travel-class">
+                <option value="Economy">ECONOMY</option>
+                <option value="Business">BUSINESS</option>
+                <option value="first">FIRST CLASS</option>
+            </select>
+        </div><br>
+
+        <input type="submit" value="Book Now">
+        </section>
+    </form>
+</body>
