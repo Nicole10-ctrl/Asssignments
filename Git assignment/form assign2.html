@@ -3,37 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form3&4</title>
+    <link rel="stylesheet" href="styleF.css">
 </head>
 <body>
-    
+    <section>
+        <div class="form-group">
+            <form id="form3">
+                <fieldset>
+                    <h3 style="">
+                        JOB APPLICATION 
+                    </h3>
+        <div>
+            <label for="Fullname"> Full Name:</label> 
+            <input type="text" id="Fullname" name="Fullname" required><br><br>
+        </div>
 
-        <h3>JOB APPLICATION FORM</h3>
-        <label for="Fullname"> Full Name:</label> 
-        <input type="text" id="Fullname" name="Fullname" required><br><br>
+        <div>
+            <label for="Email Address"> Email Address: </label> 
+            <input type="email" id="Email Address" name="Email" required><br><br>
+        </div>
 
-        <label for="Email Address"> Email Address: </label> 
-        <input type="email" id="Email Address" name="Email" required><br><br>
-        
-        <label for="yearsOfExperience">Years of Experience:</label>
-        <input type="number" id="yearsOfExperience" name="yearsOfExperience" min="1" max="40" required><br><br>
+        <div>
+            <label for="yearsOfExperience">Years of Experience:</label>
+            <input type="number" id="yearsOfExperience" name="yearsOfExperience" min="1" max="40" required><br><br>
+        </div>
 
-        <label for="resume">Select PDF Resume:</label>
-        <input type="file" id="resume" name="resume_file" accept=".pdf" > <br><br>
+        <div>
+            <label for="resume">Select PDF Resume:</label>
+            <input type="file" id="resume" name="resume_file" accept=".pdf" > <br><br>
+        </div>
 
         <input type="submit" value="Upload Resume">
-        
-
-        <h3>TRAVEL BOOKING FORM</h3>
-        <label for="Destination City">Choose your Destination city from the list:</label>
-        <input list="Destinationcity" name="Destinationcity"id="Destination city">
-        <datalist id="Destinationcity">
-            <option value="Singapore">
-            <option value="Dubai">
-            <option value="Jamaica">
-            <option value="Berlin">
-            <option value="Japan">
-        </datalist>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
 
 
-       
+        <br><br>
+
